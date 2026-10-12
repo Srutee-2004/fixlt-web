@@ -13,7 +13,7 @@ class FixItApp extends StatelessWidget {
       title: 'FixIt',
       debugShowCheckedModeBanner: false,
       theme: buildTheme(),
-      routes: {'/': (_) => const LoginScreen()},
+      home: const LoginScreen(),
     );
   }
 }
